@@ -36,7 +36,7 @@
   },
   "release": {
     "noCi": true,
-    "dryRun": true,
+    "dryRun": false,
     "debug": true,
     "plugins": [
       "@semantic-release/commit-analyzer",
