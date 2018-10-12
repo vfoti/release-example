@@ -20,3 +20,5 @@ Create .env file in the root. Populate the file with a github access token. This
 ```sh
 GITHUB_TOKEN=yourTokenHere
 ```
+
+To prevent semantic-release from attempting to publish to npm in the package.json set the repo to private.
