@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/vfoti/release-example/compare/v1.1.5...v1.1.6) (2018-12-12)
+
+
+### Bug Fixes
+
+* config ([48743e1](https://github.com/vfoti/release-example/commit/48743e1))
+
 ## [1.1.5](https://github.com/vfoti/release-example/compare/v1.1.4...v1.1.5) (2018-12-12)
 
 

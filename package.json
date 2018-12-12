@@ -1,6 +1,6 @@
 {
   "name": "release-example",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -56,7 +56,12 @@
           "npmPublish": false
         }
       ],
-      "@semantic-release/git",
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "./tools/gitCommitPublishCmd.js"
+        }
+      ],
       "@semantic-release/github"
     ]
   }
