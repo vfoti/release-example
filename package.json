@@ -60,7 +60,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "node ./tools/git-prepare.js -m 'docs: v${nextRelease.version}'"
+          "prepareCmd": "node ./tools/git-prepare.js -m 'docs: v${nextRelease.version} release'"
         }
       ],
       "@semantic-release/github"
