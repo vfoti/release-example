@@ -5,11 +5,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "release": "node tools/release.js"
+    "release": "node tools/release.js",
+    "semantic-release": "semantic-release --debug"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vfoti/release-example.git"
+    "url": "https://github.com/vfoti/release-example.git"
   },
   "author": "Vincent Foti",
   "license": "MIT",
@@ -17,14 +18,18 @@
     "url": "https://github.com/vfoti/release-example/issues"
   },
   "homepage": "https://github.com/vfoti/release-example#readme",
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-angular": "^7.1.2",
     "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/commit-analyzer": "^6.1.0",
     "@semantic-release/git": "^7.0.5",
+    "@semantic-release/github": "^5.2.6",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "dotenv": "^6.1.0",
     "husky": "^1.1.2",
-    "semantic-release": "^15.9.17"
+    "semantic-release": "^15.12.5"
   },
   "commitlint": {
     "extends": [
@@ -38,7 +43,7 @@
   },
   "release": {
     "noCi": true,
-    "dryRun": true,
+    "dryRun": false,
     "debug": true,
     "plugins": [
       "@semantic-release/commit-analyzer",
