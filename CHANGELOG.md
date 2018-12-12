@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/vfoti/release-example/compare/v1.1.8...v1.1.9) (2018-12-12)
+
+
+### Bug Fixes
+
+* moved to prepare ([9cd265a](https://github.com/vfoti/release-example/commit/9cd265a))
+
 ## [1.1.8](https://github.com/vfoti/release-example/compare/v1.1.7...v1.1.8) (2018-12-12)
 
 

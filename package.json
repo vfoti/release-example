@@ -1,6 +1,6 @@
 {
   "name": "release-example",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -30,7 +30,8 @@
     "@semantic-release/release-notes-generator": "^7.1.4",
     "dotenv": "^6.1.0",
     "husky": "^1.1.2",
-    "semantic-release": "^15.12.5"
+    "semantic-release": "^15.12.5",
+    "yargs": "^12.0.5"
   },
   "commitlint": {
     "extends": [
@@ -59,7 +60,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "node ./tools/gitCommitPublishCmd.js"
+          "prepareCmd": "node ./tools/git-prepare.js -m 'docs: v${nextRelease.version}'"
         }
       ],
       "@semantic-release/github"
