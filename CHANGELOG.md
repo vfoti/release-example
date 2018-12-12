@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/vfoti/release-example/compare/v1.1.2...v1.1.3) (2018-12-12)
+
+
+### Bug Fixes
+
+* added github over git ([3ffef6c](https://github.com/vfoti/release-example/commit/3ffef6c))
+
 ## [1.1.2](https://github.com/vfoti/release-example/compare/v1.1.1...v1.1.2) (2018-12-12)
 
 
