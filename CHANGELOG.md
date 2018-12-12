@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/vfoti/release-example/compare/v1.1.7...v1.1.8) (2018-12-12)
+
+
+### Bug Fixes
+
+* pre-release cmd ([c26f17a](https://github.com/vfoti/release-example/commit/c26f17a))
+
 ## [1.1.7](https://github.com/vfoti/release-example/compare/v1.1.6...v1.1.7) (2018-12-12)
 
 
