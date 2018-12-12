@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/vfoti/release-example/compare/v1.1.3...v1.1.4) (2018-12-12)
+
+
+### Bug Fixes
+
+* test with both ([ed0156b](https://github.com/vfoti/release-example/commit/ed0156b))
+
 ## [1.1.3](https://github.com/vfoti/release-example/compare/v1.1.2...v1.1.3) (2018-12-12)
 
 
