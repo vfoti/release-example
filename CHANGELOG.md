@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/vfoti/release-example/compare/v1.1.6...v1.1.7) (2018-12-12)
+
+
+### Bug Fixes
+
+* git publish commit ([41a3962](https://github.com/vfoti/release-example/commit/41a3962))
+
 ## [1.1.6](https://github.com/vfoti/release-example/compare/v1.1.5...v1.1.6) (2018-12-12)
 
 
