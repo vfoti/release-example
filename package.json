@@ -59,7 +59,7 @@
       [
         "@semantic-release/exec",
         {
-          "publishCmd": "node ./tools/gitCommitPublishCmd.js"
+          "prepareCmd": "node ./tools/gitCommitPublishCmd.js"
         }
       ],
       "@semantic-release/github"
