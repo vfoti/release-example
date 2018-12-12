@@ -1,3 +1,5 @@
+// this file may not be needed
+
 require('dotenv').config(); // load .env
 
 require('semantic-release')(); // call semantic-release
